@@ -6,7 +6,7 @@ Things to do :
 
 run this in your terminal :
 
-`mvn gradle clean bootRun`
+`gradle clean bootRun`
 
 HATEOAS (Hypermedia as the Engine of Application State) specifies that the REST API’s should provide enough information to the client to interact with the server. This is different from the SOA (Service-Oriented Architecture) where a client and a server interact through a fixed contract. We’ll look more into HATEOAS in a while.
 
@@ -151,6 +151,12 @@ We are getting a link to the Country associated with it. Let’s see what we get
     }
 }
 ```
+
+### Screenshot
+
+Home Page
+
+![Home Page](img/home.png "Home Page")
 
 
 
