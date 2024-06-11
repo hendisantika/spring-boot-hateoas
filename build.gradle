@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '3.2.9'
+		springBootVersion = '3.3.0'
 	}
 	repositories {
 		mavenCentral()
@@ -16,7 +16,7 @@ apply plugin: 'org.springframework.boot'
 
 group = 'com.hendisantika'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 21
 
 repositories {
 	mavenCentral()
